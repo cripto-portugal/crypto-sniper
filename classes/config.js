@@ -61,6 +61,7 @@ class Config {
 	    // pre-defined contracts
 	    if(_name.toLowerCase() == 'bnb') {
 	        return '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c';
+		    /* // fake Address's
 	    } else if(_name.toLowerCase() == 'eth') {
 	    	return '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2';
 	    } else if(_name.toLowerCase() == 'matic') {
@@ -69,7 +70,7 @@ class Config {
 	        return '0xe9e7cea3dedca5984780bafc599bd69add087d56';
 	    } else if(_name.toLowerCase() == 'sfm') {
 	    	return '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3';
-	    }
+	    }*/
 
 	    // no address specified, fail with error
 	    if(!_name.startsWith('0x')) {
